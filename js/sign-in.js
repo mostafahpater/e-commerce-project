@@ -7,7 +7,7 @@ var wrong = document.getElementById("wrong")
   var gtter = JSON.parse(localStorage.getItem("table"));
   for (var i = 0; i < gtter.length; i++) {
     if (gtter[i].name == names.value && gtter[i].password == pass.value) {
-      form.setAttribute("action", "home.html");
+      form.setAttribute("action", "index.html");
       localStorage.setItem("namehtml", `Hello ${names.value}`);
       break;
     } else if(i == gtter.length-1){
@@ -27,7 +27,7 @@ function loadding() {
   }
   
   if (acc.textContent.includes("Hello") == true) {
-    acc.setAttribute("href", "home.html");
+    acc.setAttribute("href", "index.html");
   }else{
     logout.remove();
   }
