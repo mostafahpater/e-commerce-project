@@ -1,0 +1,65 @@
+.about{
+    background-image: url(/images/all-bg-title.jpg);
+    height: 40vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.about .container{
+    background-color: rgba(0, 0, 0, 0.688);
+    height: 40vh;
+width: 100%;
+}
+.about h1{
+    color: white;
+    text-align: center;
+    padding-top: 15vh; 
+    transition: all .3s;
+
+}
+.about h1:hover{
+    color: #d33b33;
+    transition: all .3s;
+
+}
+/* main */
+main{
+    margin: 40px 0;
+}
+main .container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+main .container div img{
+    width: 600px;
+    border: 1px solid rgba(65, 64, 64, 0.279);
+    padding: 4px;
+} 
+main .container div p{
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin-right: 30px;
+}
+/* about-us */
+.main-about .container{
+    display: flex;
+    margin-bottom: 40px;
+}
+.main-about .container div{
+    margin: 13px ;
+    padding-left: 10px;
+    border-left: 4px solid black;
+    letter-spacing: 1px;
+    transition: all .3s;
+
+}
+.main-about .container div:hover{
+    border-color: #d33b33;
+    transition: all .3s;
+}
+.main-about .container div p{
+    padding: 10px 0;
+    line-height: 30px;
+}
+.main-about .container div h2{
+    font-weight: 500;
+}

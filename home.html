@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Project</title>
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body onload="loadding()">
+  <!-- header -->
+  <div id="account">
+    <ul>
+      <li><a href="">My Account</a></li>
+      <li><a href="">Our Location</a></li>
+      <li><a href="">Contact Us</a></li>
+    </ul>
+    <h4 ><a id="acc" href="/sign-in.html">Sign In/Up</a> <a id="logout" onclick=" logot()" href="home.html">Log Out</a></h4>
+  </div>
+  <header id="up">
+    <span><a href="#">
+        <i class="fa-solid fa-arrow-up-long"></i>
+      </a></span>
+    <div class="container">
+      <a class="logo" href="#">
+        <img src="/images/logo.png" alt="" />
+      </a>
+      <div class="links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li class="prodo"><a href="#product">Product</a>
+            <div class="list-prod">
+              <ul>
+                <li>
+                  <h3>TOP</h3>
+                </li>
+                <li><a href="">Jackets</a></li>
+                <li><a href="">Shirts</a></li>
+                <li><a href="">Sweaters&Cardigans</a></li>
+                <li><a href="">T-shirts</a></li>
+              </ul>
+              <ul>
+                <li>
+                  <h3>BOTTOM</h3>
+                </li>
+                <li><a href="">Swimwear</a></li>
+                <li><a href="">Skirts</a></li>
+                <li><a href="">Jeans</a></li>
+                <li><a href="">Trousers</a></li>
+              </ul>
+              <ul>
+                <li>
+                  <h3>CLOTHING</h3>
+                </li>
+                <li><a href="">Top Wear</a></li>
+                <li><a href="">Party wear</a></li>
+                <li><a href="">Bottom Wear</a></li>
+                <li><a href="">Indian Wear</a></li>
+              </ul>
+              <ul>
+                <li>
+                  <h3>ACCESSORIES</h3>
+                </li>
+                <li><a href="">Bags</a></li>
+                <li><a href="">Sunglasses</a></li>
+                <li><a href="">Fragrances</a></li>
+                <li><a href="">Wallets</a></li>
+              </ul>
+            </div>
+          </li>
+
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="services.html">Our Service</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="cart">
+        <a href="">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+         <a href="carts.html">
+             <i class="fa-solid fa-bag-shopping"></i>
+         </a>
+      </div>
+    </div>
+  </header>
+  <!-- slide -->
+  <section class="slide">
+
+    <div class="container">
+      <h1>Welcome To Thewayshop</h1>
+      <p>
+        See how your users experience your website in realtime or view trends
+        to see any changes in performance over time.
+      </p>
+      <button>Shop Now</button>
+    </div>
+  </section>
+  <!-- shop -->
+  <section class="shop">
+    <div class="container">
+      <div>
+        <img src="/images/shirt-img.jpg" alt="" />
+        <button>Shirt</button>
+      </div>
+      <div>
+        <img src="/images/shoes-img.jpg" alt="" />
+        <button>Shoes</button>
+      </div>
+      <div>
+        <img src="/images/wallet-img.jpg" alt="" />
+        <button>Wallet</button>
+      </div>
+      <div>
+        <img src="/images/t-shirts-img.jpg" alt="" />
+        <button>T-Shirt</button>
+      </div>
+      <div>
+        <img src="/images/women-bag-img.jpg" alt="" />
+        <button>Bags</button>
+      </div>
+      <div>
+        <img src="/images/women-shoes-img.jpg" alt="" />
+        <button>Women Shoes</button>
+      </div>
+    </div>
+  </section>
+  <!-- Product -->
+  <section class="product">
+    <div class="container">
+      <h1>Featured Products</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse!</p>
+      <button>All</button>
+      <button>Top Featured</button>
+      <button>Best Seller</button>
+      <div class="pro">
+        <div>
+          <img src="/images/img-pro-01.jpg" alt="">
+          <div class="black"></div>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>$7.79</p>
+          <button>Add to Cart </button>
+        </div>
+        <div>
+          <img src="/images/img-pro-02.jpg" alt="">
+          <div class="black"></div>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>$9.79</p>
+          <button>Add to Cart </button>
+
+        </div>
+        <div>
+          <img src="/images/img-pro-03.jpg" alt="">
+          <div class="black"></div>
+
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>$10.79</p>
+          <button>Add to Cart </button>
+        </div>
+        <div>
+          <img src="/images/img-pro-04.jpg" alt="">
+          <div class="black"></div>
+
+          <p>Lorem ipsum dolor sit amet.</p>
+          <p>$15.79</p>
+          <button>Add to Cart </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- blog -->
+  <section class="blog">
+    <div class="container">
+      <h1>latest blog</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, impedit?</p>
+      <div class="someblog">
+        <div>
+          <img src="/images/blog-img-01.jpg" alt="">
+          <h3>Fusce in augue non nisi fringilla</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate deserunt est tempore? Nam laboriosam
+            veniam consequatur corrupti earum eos fuga est, voluptatibus ea ut, expedita aperiam dicta quidem assumenda
+            laudantium?</p>
+
+        </div>
+        <div>
+          <img src="/images/blog-img-02.jpg" alt="">
+          <h3>Fusce in augue non nisi fringilla</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam amet possimus quod harum earum voluptatem
+            rerum? Nemo ex odio impedit, delectus natus laboriosam incidunt doloremque. Nobis omnis quidem ipsa aliquam.
+          </p>
+
+        </div>
+        <div>
+          <img src="/images/blog-img.jpg" alt="">
+          <h3>Fusce in augue non nisi fringilla</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore possimus sit, exercitationem pariatur
+            voluptatem, ea animi unde delectus ratione omnis at deleniti et cum, officiis minus! Expedita dolor suscipit
+            odio.</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- navFooter -->
+  <section class="navfooter">
+    <div class="container"></div>
+  </section>
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="icons">
+        <h4>ABOUT THEWAYSHOP</h4>
+        <hr>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium ad vel, cupiditate odit nam in ducimus?
+          Animi natus ipsa eos saepe iusto impedit. Iure, alias tenetur possimus consequuntur autem voluptatum.</p>
+        <a href="#">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-google-plus"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-pinterest"></i>
+        </a>
+        <a href="#">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+      </div>
+      <div>
+        <h4>INFORMATION</h4>
+        <hr>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Customer Service</a></li>
+          <li><a href="#">Our Sitemap</a></li>
+          <li><a href="#">Terms & Policy</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Delivery Information</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>CONTACT US</h4>
+        <hr>
+        <section>
+
+          <p><i class="fa-solid fa-location-dot"></i> Address: Michael I. Days 3756
+            Preston Street Wichita,
+            KS 67213</p>
+        </section>
+        <section>
+
+          <p><i class="fa-solid fa-square-phone"></i> Phone: <a href="">+1-888 705 770</a></p>
+        </section>
+        <section>
+
+          <p><i class="fa-solid fa-envelope"></i> Email: <a href="#">info@domain.com</a></p>
+        </section>
+      </div>
+    </div>
+  </footer>
+  <script src="js/sign-in.js"></script>
+</body>
+
+</html>

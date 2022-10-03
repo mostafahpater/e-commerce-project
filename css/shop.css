@@ -1,0 +1,115 @@
+.product .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.product .container div img{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+border-radius: 10px;
+}
+.product .container div button{
+    display: block;
+    margin: 0 auto;
+}
+.product .container div span{
+    font-size: 18px;
+    font-weight: 600;
+}
+.product .container div h3{
+    font-weight: 400;
+    font-size: 25px;
+}
+.product .container {
+    text-align: center;
+  }
+  .product .container h1 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .product .container p:first-child {
+    margin: 15px;
+  }
+  .product .container button {
+    padding: 7px;
+    border: none;
+    background-color: #d33b33;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+  .product .container button:hover {
+    background-color: black;
+    transition: all 0.3s;
+  }
+  .product .container .pro {
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  .product .container .pro div {
+    width: 30%;
+    position: relative;
+  }
+  .product .container .pro div button {
+    width: 90%;
+    margin-right: 20px;
+  }
+
+  /* carts html  */
+ 
+  main .container div  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(50, 50, 50);
+    color: white;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+  main .container div button{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #d33b33;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  main .container div p{
+    font-weight: 600;
+  }
+
+  main #totalprice{
+    padding-left: 70px;
+  }
+  main .sorts{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  main .sorts button{
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d33b33;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+  }
+/* input for search */
+  #myInput{
+    padding: 5px;
+    
+    border-radius: 5px;
+  }

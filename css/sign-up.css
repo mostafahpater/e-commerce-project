@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Sign In/Up */
+a{
+  text-decoration: none;
+ color: blue;
+ transition: all .3s;
+
+}
+a:hover{
+  color: #d33b33;
+  transition: all .3s;
+
+}
+section {
+  background-image: url(/images/sign-up1.jpg);
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+section div {
+    box-shadow:10px 20px 50px black;
+    padding: 20px;
+display: flex;
+flex-direction: row-reverse;
+  background-color:rgb(220, 220, 220);
+  position: absolute;
+  top: 20%;
+  right: 30%;
+}
+section div form{
+padding-right: 25px;
+}
+section div label{
+    font-size: 20px;
+}
+section div input{
+    margin-top: 4px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;   
+}
+section div .signup{
+    color: white;
+    background-color: #d33b33;
+    padding: 12px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all .3s;
+
+}
+section div .signup:hover{
+    background-color: black;
+    transition: all .3s;
+}
+section div input:focus{
+  outline-color: #d33b33 ;
+  border: 2px solid #d33b33;
+
+}
+
+section img{
+    width: 250px;
+    height: 350px;
+    margin-right: 50px;
+    border-radius: 7px;
+    border:1px solid rgb(144, 144, 144);
+    padding: 2px;
+}
+
+
+.wrong{
+  display: none;
+  /* display: block; */
+}
+
